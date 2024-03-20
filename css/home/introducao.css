@@ -1,0 +1,12 @@
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 72px 20px;
+}
+
+.introducao-texto {
+  background: var(--c10);
+  padding: 48px 40px;
+  border-radius: 0 4px 4px 0;
+}
