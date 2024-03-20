@@ -1,0 +1,7 @@
+.botao {
+  background: var(--p1);
+  color: var(--p5);
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 600;
+}
