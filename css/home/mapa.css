@@ -1,0 +1,20 @@
+.mapa-bg {
+  background-image: url(../../img/mapa/mapa.jpg);
+  height: 391px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 48px solid var(--c10);
+  border-bottom: 48px solid var(--c10);
+}
+
+.mapa {
+  display: grid;
+  height: 391px;
+  justify-items: center;
+  align-items: center;
+}
+
+.mapa a {
+  padding: 48px;
+}
