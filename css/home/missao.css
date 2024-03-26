@@ -1,0 +1,22 @@
+.missao-bg {
+  background: var(--c10);
+}
+
+.missao {
+  padding: 144px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.missao-conteudo {
+  display: grid;
+  grid-area: 1fr;
+  justify-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.missao h1 {
+  text-transform: uppercase;
+}
