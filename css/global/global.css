@@ -16,7 +16,8 @@ dd {
   margin: 0px;
 }
 
-ul {
+ul,
+nav {
   padding: 0px;
   list-style: none;
 }
