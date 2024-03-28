@@ -4,7 +4,7 @@
     "comentario1 comentario2"
     "comentario3 comentario4";
   gap: 40px;
-  padding: 96px 0 144px 0;
+  padding: 96px 20px 144px 20px;
 }
 
 .comentario p {
@@ -31,4 +31,15 @@
   position: absolute;
   top: -48px;
   right: 60px;
+}
+
+@media (max-width: 700px) {
+  .comentario {
+    grid-template-areas:
+      "comentario1"
+      "comentario2"
+      "comentario3"
+      "comentario4";
+    padding: 48px 20px 72px 20px;
+  }
 }
